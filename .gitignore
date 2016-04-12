@@ -1,1 +1,4 @@
 BreakoutBoys/BreakoutBoys.VC.opendb
+*.suo
+BreakoutBoys/BreakoutBoys.opensdf
+*.sdf
