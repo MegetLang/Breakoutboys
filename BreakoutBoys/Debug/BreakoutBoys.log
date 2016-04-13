@@ -1,0 +1,11 @@
+﻿Build started 13/04/2016 11:55:59.
+     1>Project "C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\BreakoutBoys.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\Debug\BreakoutBoys.exe" /INCREMENTAL /NOLOGO C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\packages\sdl2_image.v140.2.0.1\build\native\../..//build/native/lib/Win32\Debug\sdl2_image.lib "C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\packages\zlib.v140.windesktop.msvcstl.dyn.rt-dyn.1.2.8.8\build\native\..\..\lib\native\v140\windesktop\msvcstl\dyn\rt-dyn\Win32\Debug\zlibd.lib" C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\packages\sdl2_ttf.v140.2.0.14\build\native\../..//build/native/lib/Win32\Debug\SDL2_ttf.lib C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\packages\sdl2.v140.2.0.4\build\native\../..//build/native/lib/Win32\Debug\SDL2main.lib C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\packages\sdl2.v140.2.0.4\build\native\../..//build/native/lib/Win32\Debug\SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\Debug\BreakoutBoys.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\Debug\BreakoutBoys.lib" /MACHINE:X86 Debug\GameInit.obj
+     1>SDL2main.lib(SDL_windows_main.obj) : error LNK2019: unresolved external symbol _SDL_main referenced in function _main_utf8
+     1>C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\Debug\BreakoutBoys.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\IbenOliver\Documents\Google\gitshit\Breakoutboys\BreakoutBoys\BreakoutBoys.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56
