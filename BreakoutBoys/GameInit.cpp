@@ -15,11 +15,19 @@ int main(int argc, char* args[])
 	}
 	else {
 		// Create window. 
+<<<<<<< HEAD
 		window = SDL_CreateWindow("SDL Tutorial",
 			SDL_WINDOWPOS_UNDEFINED,
 			SDL_WINDOWPOS_UNDEFINED,
 			SCREEN_WIDTH,
 			SCREEN_HEIGHT,
+=======
+		window = SDL_CreateWindow("Iben og Lasse. IKKE Frode", 
+			SDL_WINDOWPOS_UNDEFINED, 
+			SDL_WINDOWPOS_UNDEFINED, 
+			SCREEN_WIDTH, 
+			SCREEN_HEIGHT, 
+>>>>>>> origin/master
 			SDL_WINDOW_SHOWN);
 		if (window == NULL) {
 			printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
@@ -29,7 +37,11 @@ int main(int argc, char* args[])
 			screenSurface = SDL_GetWindowSurface(window);
 			SDL_FillRect(screenSurface, NULL, SDL_MapRGB(screenSurface->format, 0xFF, 0xFF, 0xFF));
 			SDL_UpdateWindowSurface(window);
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> origin/master
 			SDL_Delay(5000);
 		}
 	}

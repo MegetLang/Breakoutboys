@@ -149,10 +149,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="GameInit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameInit.h" />
+=======
+    <ClInclude Include="GameInit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameInit.cpp" />
+>>>>>>> origin/master
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

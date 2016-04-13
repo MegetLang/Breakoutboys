@@ -18,13 +18,24 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="GameInit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+=======
+>>>>>>> origin/master
     <ClInclude Include="GameInit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <ClCompile Include="GameInit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+>>>>>>> origin/master
 </Project>
